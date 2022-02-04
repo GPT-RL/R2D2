@@ -1,6 +1,6 @@
 
-game_name = 'Boxing'
-env_type = 'Deterministic-v4'
+game_name = 'Breakout'
+env_type = 'NoFrameskip-v4'
 frame_stack = 4
 obs_shape = (frame_stack, 84, 84)
 

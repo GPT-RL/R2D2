@@ -6,20 +6,16 @@ authors = ["Ethan Brooks", "Logan Walls <2934282+LoganWalls@users.noreply.github
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.11"
-stable-baselines3 = "^1.1.0"
-typed-argument-parser = "^1.7.0"
-transformers = "^4.11.3"
-pybullet = "^3.1.7"
-sweep-logger = {git = "https://github.com/ethanabrooks/sweep-logger.git", rev = "main"}
-gym = {version = "^0.18.3"}
-ansicolors = "^1.1.8"
-torch = [
-    {platform = 'darwin', url = "https://download.pytorch.org/whl/cpu/torch-1.10.0%2Bcpu-cp38-cp38-linux_x86_64.whl"},
-    {platform = 'linux', url = "https://download.pytorch.org/whl/cu113/torch-1.10.0%2Bcu113-cp38-cp38-linux_x86_64.whl"}
-]
-art = "^5.4"
-ray = "^1.10.0"
 numba = "^0.55.1"
+opencv-python = "^4.5.5"
+pybullet = "^3.2.1"
+transformers = "^4.16.2"
+ray = "^1.10.0"
+typed-argument-parser = "^1.7.2"
+ansicolors = "^1.1.8"
+art = "^5.4"
+torch = "^1.10.2"
+gym = {extras = ["accept-rom-license", "atari"], version = "^0.21.0"}
 
 
 [tool.poetry.dev-dependencies]
